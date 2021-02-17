@@ -20,6 +20,10 @@ nav{
   line-height: 80px;
 
 }
+nav img{
+	float:right;
+	width:120px;
+}
 nav ul{
   
   float:left;
@@ -250,7 +254,7 @@ nav ul li:hover{
 	display: inline-flex;
 }
 .image-set img{
-	width: 330px;
+	width: 320px;
   height: auto;
   margin: 3px;
   border-radius: 10px 10px 10px 10px;
@@ -299,7 +303,7 @@ nav ul li:hover{
 
 #explore_cuisines{
   color: rgb(18, 19, 18);
-  margin: 10px 300px 10px 450px;
+  margin: 100px 250px 20px 350px;
   font-size: 75px;
   font-weight: 600;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -319,7 +323,7 @@ nav ul li:hover{
   margin: 10px 20px 50px 65px;
 }
 .image_set img{
-	width: 650px;
+	width: 600px;
   height: auto;
   border-radius: 40px 40px 40px 40px;
 }
@@ -394,7 +398,7 @@ nav ul li:hover{
 }
 .image-set2 img{
   border-radius: 5px 5px 5px 5px;
-  width: 650px;
+  width: 600px;
   height: auto;
 }
 .image-set2 .image-box2 .image-content2{
