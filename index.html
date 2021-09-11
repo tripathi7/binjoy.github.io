@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>BINJOY</title>
+        <link rel="shortcut icon" type="image/jpeg" href="images/LOGO.jpeg">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link href="style.css" rel="stylesheet" >
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -14,9 +15,14 @@
         <body>
           <section>
             <header>
-              <div id="main">
+              
               <nav>
-                  <img src="logo.png" width="100" height="80">
+                  <img id="lg" src="images/LOGO.jpeg" >
+                  <!--<div id="main-title">BINJOY</div>-->
+                  <!--<div id="search-bar">
+                    <input type="text" name="Search" placeholder="Search..." id="search-text-bar">
+                    <button id="search-button"><i class="fas fa-search fa-2x"></i></button>
+                  </div> -->
                 <ul>
                   <li><a class="active" href="index.html">Home</a></li>
                   <li><a href="#explore">Travel</a></li>
@@ -24,19 +30,35 @@
                   <li><a href="#explore2">Relax</a></li>
                   <li><a href="#footer">Contact</a></li>
                 </ul>
-                </nav>
-                <div class="header-title">
-                  <div id="main-title">welcome to <span>BINJOY</span></div>
-                  <div id="sub-title">Relax the mind and Enjoy freely.</div>
-                  <div id="search-bar">
-                    <input type="text" name="Search" placeholder="Search..." id="search-text-bar">
-                    <button id="search-button"><i class="fas fa-search fa-2x"></i></button>
-                  </div>
-                  <div id="title-button"><a href="#"><i class="fas fa-chevron-down fa-2x"></i></a></div>
-                </div>
-              </div>
+              </nav>
+              <div id="sub-title"> Plan Your Vacations</div>
+                  
+              <form id="start">
+                    <div class="container">
+                      <h1 id="register">Please fill up the form to create an account!</h1>
+                      <label for="email"></label>
+                      <input type="text" placeholder="Enter Email" name="email" id="email" required>
+                  
+                      <label for="psw"></label>
+                      <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+                  
+                      <label for="psw-repeat"></label>
+                      <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                      
+                      <div class="CheckBox">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">By clicking Register you agree to our <a href="#">Terms & Conditions and Privacy Policies</a>.</label>
+                      </div>
+                      
+                      <button type="submit" class="registerbtn">Register</button>
+                      <div id="signin">
+                        <p>Already have an account? <a href="#">Sign in</a></p>
+                      </div>
+                    </div>
+              </form>
+              
             </header>
-            </section>
+          </section>
 
 
             <section id="image-set-sec">
@@ -225,4 +247,3 @@
             </section>
         </body>
 </html>
-
